@@ -19,9 +19,9 @@ export default function Home() {
   }
 
   return (
-    <div className="">
+    <div className="overflow-scroll overflow-y-auto h-screen w-screen">
       <Head>
-        <title>Spotify - Dashboard</title>
+        <title>Egwuoma - Dashboard</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Dashboard />
